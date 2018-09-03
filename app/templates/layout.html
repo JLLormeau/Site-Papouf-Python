@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>La famille doudou</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Le monde des doudous</h1>
+            <strong>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="{{ url_for('home') }}">Papouf</a></li>
+                        <li><a href="{{ url_for('moumout') }}">Baby kiki</a></li>
+                        <li><a href="{{ url_for('about') }}">Waddels (alias Warlof)</a></li>
+                    </ul>
+                </nav>
+            </strong>
+        </div>
+    </header>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
