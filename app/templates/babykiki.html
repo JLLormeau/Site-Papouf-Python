@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    {% extends "layout.html" %}
+    {% block content %}
+    <div class="babykiki">
+        <h1>babykiki</h1>
+        <p>C'est pas moi !! .</p>
+    </div>
+    <img src="{{ url_for('static', filename='images/babykiki.jpg')  }}" alt="Baby kiki">
+    {% endblock %}
+</body>
+</html>
