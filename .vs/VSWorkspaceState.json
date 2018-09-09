@@ -2,6 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\app",
+    "\\app\\static",
+    "\\app\\static\\css",
     "\\app\\templates"
   ],
   "SelectedNode": "\\app\\main.py",
