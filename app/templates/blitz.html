@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    {% extends "layout.html" %}
+    {% block content %}
+    <div class="blitz">
+        <h1>Blitz</h1>
+        <p>Je suis trop gentille!!</p>
+    </div>
+    <video autoplay loop width="1200">
+        <source src="{{ url_for('static', filename='videos/blitz.mp4') }}" type="video/mp4">
+    </video>
+    {% endblock %}
+</body>
+</html>

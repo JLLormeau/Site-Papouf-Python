@@ -17,6 +17,14 @@ def moumout ():
 def babykiki ():
     return render_template('babykiki.html')
 
+@app.route('/blitz/')
+def blitz ():
+    return render_template('blitz.html')
+
+@app.route('/doudou_rose/')
+def doudou_rose ():
+    return render_template('doudou_rose.html')
+
 if __name__ == '__main__':
   # Run the app server on localhost:5000
   # app.run()

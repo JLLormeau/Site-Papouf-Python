@@ -4,8 +4,9 @@
     "\\app",
     "\\app\\static",
     "\\app\\static\\css",
+    "\\app\\static\\videos",
     "\\app\\templates"
   ],
-  "SelectedNode": "\\app\\main.py",
+  "SelectedNode": "\\app\\static\\videos\\moumout.mp4",
   "PreviewInSolutionExplorer": true
 }

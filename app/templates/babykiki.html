@@ -5,13 +5,10 @@
     {% block content %}
     <div class="babykiki">
         <h1>babykiki</h1>
-        <p>C'est pas moi !! .</p>
+        <p>C'est le One Doudou Show !! .</p>
     </div>
-    <!--
-    <img src="{{ url_for('static', filename='images/babykiki.jpg')  }}" alt="Baby kiki">
-    -->
-    <video controls autoplay width="640" height="480">
-        <source src="{{ url_for('static', filename='videos/babykiki.mp4') }}" type="video/mp4" >
+    <video autoplay loop width="1200">
+        <source src="{{ url_for('static', filename='videos/babykiki.mp4') }}" type="video/mp4">
     </video>
     {% endblock %}
 </body>

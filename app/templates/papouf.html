@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <body>
     {% extends "layout.html" %}
@@ -8,10 +7,7 @@
         <h1>Papouf</h1>
         <p>Veux-tu me faire un calin?</p>
     </div>
-    <!--
-    <img src="{{ url_for('static', filename='images/papouf.jpg')  }}" alt="Baby kiki">
-    -->
-    <video controls autoplay width="640" height="480">
+    <video autoplay loop width="1200">
         <source src="{{ url_for('static', filename='videos/papouf.mp4') }}" type="video/mp4">
     </video>
     {% endblock %}
